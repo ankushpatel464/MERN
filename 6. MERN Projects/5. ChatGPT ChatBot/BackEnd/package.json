@@ -1,0 +1,25 @@
+{
+  "name": "mern-live-backend-ankush",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.26.0",
+    "@google/generative-ai": "^0.24.1",
+    "body-parser": "^2.2.0",
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.1",
+    "openai": "^6.6.0"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  }
+}
